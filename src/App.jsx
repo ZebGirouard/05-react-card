@@ -33,8 +33,7 @@ export default function App() {
   return (
     <main className="page">
       <ProfileCard person={profile} />
-      <button className="status">
-        {/* Toggle this label and state when the button is clicked. */}
+      <button className="status" onClick={() => setIsAvailable((current) => !current)}>
         {isAvailable ? "Available for projects" : "Heads down learning"}
       </button>
     </main>
