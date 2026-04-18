@@ -34,6 +34,7 @@ export default function App() {
     <main className="page">
       <ProfileCard person={profile} />
       <button className="status" onClick={() => setIsAvailable((current) => !current)}>
+      <button className="status" onClick={() => setIsAvailable((current) => !current)}>
         {isAvailable ? "Available for projects" : "Heads down learning"}
       </button>
     </main>
