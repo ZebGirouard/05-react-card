@@ -1,1 +1,1 @@
-Attach an `onClick` handler to the button and flip `isAvailable` with `setIsAvailable((current) => !current)`.
+The missing behavior lives on the button: it needs a click handler that flips the boolean state already defined in the component.

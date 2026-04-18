@@ -34,7 +34,7 @@ export default function App() {
     <main className="page">
       <ProfileCard person={profile} />
       <button className="status">
-        {/* Toggle this label and state when the button is clicked. */}
+        {/* What should happen to this label after a click, and which state value controls it? */}
         {isAvailable ? "Available for projects" : "Heads down learning"}
       </button>
     </main>

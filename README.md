@@ -6,9 +6,7 @@ Rebuild the personal card as React components so you can see how props and state
 ## Start Here
 1. Run `npm install`.
 2. Run `npm run dev`.
-3. Open the local URL and finish the missing UI behavior in `src/App.jsx`.
-
-This should be running in under five minutes on a normal machine.
+3. Open the local URL and make the status button actually change the interface.
 
 ## Stretch Goals
 - Add a second card from a new data object.
